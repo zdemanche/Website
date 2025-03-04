@@ -36,10 +36,4 @@ python -m http.server 8000
 
 This site can be easily deployed using GitHub Pages, Netlify, or Vercel.
 
-## License
-
-This project is available for personal use. Please contact the author for commercial use or redistribution.
-
----
-
 © 2024 Zachary Demanche. All rights reserved.
