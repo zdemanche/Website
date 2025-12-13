@@ -1,5 +1,3 @@
-# Zachary Demanche's Cybersecurity Portfolio
-
 This repository contains the source code for my professional cybersecurity portfolio website.
 
 ## Features
