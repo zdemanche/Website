@@ -1,37 +1,37 @@
-This repository contains the source code for my professional cybersecurity portfolio website.
+# SIGNAL/NOISE — Cybersecurity Portfolio
 
-## Features
+Source for my cybersecurity portfolio, live at **[zdemanche.github.io/Website](https://zdemanche.github.io/Website/)**.
 
-- Responsive design that works on all devices
-- Interactive particle animation background
-- Animated UI elements
-- Project showcase with detailed descriptions
-- Professional contact information
+## Design
 
-## Technical Implementation
+A "case-file dossier" theme: cool paper and ink palette with a single alert-amber accent, set in IBM Plex (Sans Condensed / Sans / Mono). Projects are presented as numbered files with monospace metadata rows.
 
-- HTML5, CSS3, and JavaScript
-- Bootstrap 5 for responsive layout
-- Particles.js for interactive background
-- Custom animations and transitions
-- Optimized for performance
+## Stack
 
-## Setup for Local Development
+- Hand-written HTML5 + CSS3 — no frameworks, no build step
+- Only external dependency: Google Fonts (IBM Plex)
+- `prefers-reduced-motion` respected; keyboard focus states; responsive to mobile
+
+## Contents
+
+| Path | What it is |
+|------|------------|
+| `index.html` / `styles.css` | The portfolio page |
+| `chatbot-demo.html` / `chatbot-code.html` | UConn Chatbot demo and code walkthrough |
+| `Projects.py/` | Python security tools + PDF documentation |
+| `assets/resume.pdf` | Resume |
+
+## Local development
 
 ```bash
-# Clone the repository
-git clone https://github.com/zdemanche/portfolio.git
-
-# Navigate to the project directory
-cd portfolio
-
-# Open the website (if you have Python installed)
-python -m http.server 8000
-# Then visit: http://localhost:8000 in your browser
+git clone https://github.com/zdemanche/Website.git
+cd Website
+python3 -m http.server 8000
+# visit http://localhost:8000
 ```
 
 ## Deployment
 
-This site can be easily deployed using GitHub Pages, Netlify, or Vercel.
+Deployed automatically via GitHub Pages on every push to `main`.
 
-© 2024 Zachary Demanche. All rights reserved.
+© 2026 Zachary Demanche. All rights reserved.
